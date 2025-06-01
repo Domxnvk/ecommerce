@@ -281,6 +281,7 @@ export default function ShoeCheckoutModal({
                       <RadioGroup
                         value={paymentMethod}
                         onValueChange={setPaymentMethod}
+                        color="warning"
                       >
                         <Radio value="credit-card">
                           <div className="flex items-center gap-2">
